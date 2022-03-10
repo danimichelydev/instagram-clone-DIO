@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background: #f0f0f0;
+    width: 100%;
+    font-size: 14px;
+}
+.container {
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transition-delay: .1s;
+}
+ .phone {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    min-width: 400px;
+}
+@media (max-width: 900px) {
+    .phone {
+       display: none;
+   }
+
+}
+.phone img {
+    width: 380px;
+    max-width: 380px;
+}
+
+.login--area {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    min-width: 340px;
+    height: 320px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-left: -3px;
+}
+.login {
+    margin: 10px;
+}
+.logo img {
+    margin-top: 30px;
+    width: 170px;
+}
+.img--profile img{
+    width: 110px;
+    border-radius: 50%;
+}
+.keep--with {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.keep--with .login a{
+    color: #fff;
+    background: #0095f6;
+    padding: 7px 25px;
+    border-radius: 3px;
+    font-weight: 400;
+}
+.keep--with p {
+    margin: 20px auto 40px auto;
+}
+.login span{
+    color: #0095f6;
+    font-weight: 600;
+    cursor: pointer;
+}
